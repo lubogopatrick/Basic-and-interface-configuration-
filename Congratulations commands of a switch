@@ -1,0 +1,16 @@
+
+Network switches typically have a command-line interface (CLI) that allows you to configure various settings and parameters. Some common configuration commands for switches include:
+
+- `enable` - Enters privileged exec mode to access advanced commands
+- `configure terminal` - Enters global configuration mode
+- `interface <interface>` - Enters configuration mode for a specific switch port or interface
+- `switchport mode <access|trunk>` - Sets the port mode to access or trunk
+- `switchport access vlan <vlan_id>` - Assigns an access port to a VLAN
+- `switchport trunk allowed vlan <vlan_ids>` - Configures allowed VLANs on a trunk port
+- `spanning-tree mode <pvst|rapid-pvst|mst>` - Selects the spanning-tree mode
+- `ip address <ip_address> <subnet_mask>` - Assigns an IP address to the switch's management interface
+- `ip default-gateway <gateway_ip>` - Sets the default gateway
+- `username <name> password <password>` - Creates a user account
+- `line console 0` and `line vty 0 15` - Configures console and virtual terminal line settings
+
+The exact commands can vary depending on the switch model and operating system. I'd suggest consulting your switch's documentation for the specific configuration guide and command reference. Let me know if you need any clarification or have additional questions!
